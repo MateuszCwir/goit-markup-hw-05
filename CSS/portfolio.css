@@ -32,6 +32,23 @@ body {
 
 
 
+:root {
+  --main-black-color: rgb(21,21,21);
+}
+
+h2 {
+  color: var(--main-blue-color);
+}
+
+  .section-title {
+      color: var(--main-blue, red);
+  }
+
+  .blue-font { 
+
+  color: blue;
+  }
+
 
 
 

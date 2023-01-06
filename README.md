@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Moduł 2 CSS
+Moduł 3 Flex Box

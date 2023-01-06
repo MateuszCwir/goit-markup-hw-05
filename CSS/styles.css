@@ -25,7 +25,7 @@ h1 {
 }
 
 footer {
-  color: var( --primary--color);
+  color: var( --fourth--color);
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -43,6 +43,32 @@ h1 li {
   letter-spacing: 3%;
   list-style: none;
 
+}
+
+
+.container {
+ max width: 1200px;
+ border: solid black;
+
+}
+
+.card-set {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.footer-color {
+  background-color: #2F303A;
+}
+
+a {
+  color: #757575;
 }
 
 .nav1:hover,

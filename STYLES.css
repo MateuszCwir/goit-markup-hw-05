@@ -11,7 +11,7 @@ header {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.,17;
-  letter-spacing: 2%;
+  letter-spacing: 0,5PX;
 
 }
 
@@ -25,8 +25,7 @@ h1 {
 }
 
 footer {
-  color: var(--fourth--color);
-  font-family: "Roboto", sans-serif;
+  color: var( --primary--color);
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -46,8 +45,8 @@ h1 li {
 
 }
 
-.reakcja:hover,
-.reakcja:focus {
+.nav1:hover,
+.nav1:focus {
   text-decoration: none;
   cursor: pointer;
   color: #ffffff;
@@ -56,13 +55,21 @@ h1 li {
   padding: 3;
 }
 
-.reakcja2:hover,
-.reakcja2:focus {
+.nav2:hover,
+.nav2:focus {
   text-decoration: none;
   cursor: pointer;
   background-color: none;
   padding: 1;
   color: #2196f3;
+}
+
+.nav3:hover,
+.nav3:focus {
+  text-decoration: none;
+  cursor: grab;
+  background-color: darksalmon;
+  padding: 1;
 }
 
 .title {

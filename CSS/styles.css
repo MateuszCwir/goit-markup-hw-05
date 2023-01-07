@@ -45,10 +45,14 @@ h1 li {
 
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+}
 
 .container {
  max width: 1200px;
- border: solid black;
 
 }
 
@@ -59,8 +63,27 @@ h1 li {
   gap: 30px;
 }
 
+.menu {
+  display: flex;
+justify-content: center;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 8px;
+}
+.menu > .item:not(:first-child) {
+  margin-left: 8px;
+}
+
+.item{
+}
+
 .card {
 flex-basis: calc((100% - 2 * 30px) / 3);
+border-top: none;
+border-right: none;
+border-bottom: 1px;
+border-left: none;
 }
 
 .footer-color {
@@ -78,7 +101,6 @@ a {
   color: #ffffff;
   border: 3px solid #2196f3;
   background-color: #2196f3;
-  padding: 3;
 }
 
 .nav2:hover,

@@ -34,6 +34,10 @@ footer {
 
 }
 
+.button {
+border: none
+padding: 32px 102px;
+}
 
 
 h1 li {
@@ -46,21 +50,16 @@ h1 li {
 }
 
 .section {
-  padding-top: 94px;
+
   padding-bottom: 94px;
 
+}
+.container-main {
+  width: 1600px;
 }
 
 .container {
  max width: 1200px;
-
-}
-
-.card-set {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 
 .menu {
@@ -75,15 +74,34 @@ justify-content: center;
   margin-left: 8px;
 }
 
-.item{
+.container-cards {
+  max width: 1200px;
+  margin-left: 185px;
+  margin-right: 185px;
+}
+
+.card-set {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .card {
-flex-basis: calc((100% - 2 * 30px) / 3);
-border-top: none;
-border-right: none;
-border-bottom: 1px;
-border-left: none;
+  flex-basis: calc((100% - 60px) / 3);
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px;
+  border-left: none;
+  }
+
+
+.box-footer {
+margin-left: 185px;
+padding-left: 0px;
+padding-top: 60px;
+padding-bottom: 60px;
+
 }
 
 .footer-color {

@@ -127,7 +127,8 @@ margin: 0 auto;
 display: flex;
 justify-content: space-between;
 height: 80px;
-border-bottom: solid 1px var(--secondary--color);
+
+
 
 }
 
@@ -151,6 +152,7 @@ border-bottom: solid 1px var(--secondary--color);
 .inline2 {
   display: inline;
 margin-right: 60px;
+
 }
 
 .menu-page2 {
@@ -214,7 +216,7 @@ justify-content: center;
   gap: 30px;
   margin-left: 185px;
   margin-right: 185px;
-  border-bottom: solid gray 1px;
+ 
 }
 .card-page2 {
   flex-basis: calc((100% - 60px) / 3);
@@ -222,6 +224,7 @@ justify-content: center;
   border-right: none;
   border-bottom: 1px;
   border-left: none;
+  border-bottom: solid gray 1px;
   }
 
 .box-footer {

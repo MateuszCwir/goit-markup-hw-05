@@ -1,4 +1,8 @@
 /* GENERAL RULES */
+/* GENERAL RULES */
+/* GENERAL RULES */
+/* GENERAL RULES */
+/* GENERAL RULES */
 
 :root {
   --primary--color: rgb(21, 21, 21);
@@ -96,6 +100,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 80px;
+
 }
 
 .container-header-item1 {
@@ -105,6 +110,7 @@ footer {
 .container-header-item2 {
   padding-top: 32px;
   padding-bottom: 32px;
+
 }
 
 .inline {
@@ -386,3 +392,32 @@ a {
   letter-spacing: 3%;
   list-style: none;
 }
+
+
+/* ELEMENTY DEKORATYWNE */
+/* ELEMENTY DEKORATYWNE */
+/* ELEMENTY DEKORATYWNE */
+/* ELEMENTY DEKORATYWNE */
+/* ELEMENTY DEKORATYWNE */
+
+
+.icon-header {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

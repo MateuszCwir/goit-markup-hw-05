@@ -22,7 +22,7 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary--color);
-  margin: auto 0; 
+  margin: 0 auto; 
 }
 
 h1 {
@@ -123,11 +123,13 @@ margin-right: 700px;
 }
 
 .container-our-team {
-  max-width: 1600px;
+  width: 1600px;
   height: 708px;
+  background-color: red;
 }
 
 .container-social-media {
+
   width: 206px;
   height: 44px;
   margin-left: 32px;
@@ -199,13 +201,12 @@ margin-right: 700px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-left: 185px;
-  margin-right: 185px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .card-page1-3 {
   flex-basis: calc((100% - 90px) / 4);
   border: solid gray 1px;
-
   width: 270px;
   height: 428px;
 }

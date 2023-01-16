@@ -22,7 +22,8 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary--color);
-  margin: 0 auto; 
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 h1 {
@@ -78,11 +79,8 @@ footer {
 }
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.container-main {
-  width: 1600px;
 }
 
 .container {
@@ -103,47 +101,31 @@ footer {
 }
 
 .container-maintitle-page1 {
-width: 1600px;
-height: 636px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-color: red;
-background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url("/images/background-page1.jpg");
+  width: 1600px;
+  height: 636px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/background-page1.jpg");
 }
-
 
 .container-button {
-width: 200px;
-height: 53px;
-margin-top: 39.8px;
-margin-bottom: 212px;
-margin-left: 700px;
-margin-right: 700px;
+  width: 200px;
+  height: 53px;
+  margin-top: 39.8px;
+  margin-bottom: 212px;
+  margin-left: 700px;
+  margin-right: 700px;
 }
-
-.container-our-team {
-  width: 1600px;
-  height: 708px;
-  background-color: red;
-}
-
-.container-social-media {
-
-  width: 206px;
-  height: 44px;
-  margin-left: 32px;
-  margin-right: 32px;
-  }
-
-
 
 .center {
   display: inline-flex;
   align-items: center;
-
 }
-
 
 .inline {
   display: inline-flex;
@@ -155,7 +137,6 @@ margin-right: 700px;
 .inline2 {
   margin-right: 60px;
 }
-
 
 .menu-page2 {
   display: flex;
@@ -176,7 +157,6 @@ margin-right: 700px;
   margin-left: 185px;
   margin-right: 185px;
   gap: 30px;
- 
 }
 .card-page1-1 {
   flex-basis: calc((100% - 90px) / 4);
@@ -188,9 +168,8 @@ margin-right: 700px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-left: 185px;
-  margin-right: 185px;
-  
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .card-page1-2 {
   flex-basis: calc((100% - 60px) / 3);
@@ -198,17 +177,21 @@ margin-right: 700px;
 
 .card-set-page1-3 {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   gap: 30px;
   margin-left: 215px;
   margin-right: 215px;
 }
 .card-page1-3 {
+  display: inline-block;
   flex-basis: calc((100% - 90px) / 4);
-  border: solid gray 1px;
+  border: grey;
   width: 270px;
   height: 428px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .card-set-page2 {
@@ -318,7 +301,7 @@ a {
   text-decoration: none;
   text-align: center;
   padding-top: 212px;
-  padding-bottom: 296,8px;
+  padding-bottom: 296, 8px;
   padding-left: 452px;
   padding-right: 452px;
 }
@@ -344,7 +327,7 @@ a {
 }
 
 .text-page1-3 {
-  font-style:normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: rgb(75, 75, 75);
@@ -352,7 +335,6 @@ a {
   letter-spacing: 3%;
   text-align: center;
   padding-top: 10px;
-
 }
 
 .h2title-page1 {
@@ -363,7 +345,6 @@ a {
   letter-spacing: 3%;
   text-decoration: none;
   text-align: center;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -402,10 +383,11 @@ a {
 }
 
 .figcaption-page1 {
-  height: 108px;
+  height: 78px;
   width: 270px;
   align-items: center;
   justify-items: center;
+  margin-bottom: 16px;
 }
 
 /* PAGE 2 */
@@ -433,7 +415,6 @@ a {
   list-style: none;
 }
 
-
 /* ELEMENTY DEKORATYWNE */
 /* ELEMENTY DEKORATYWNE */
 /* ELEMENTY DEKORATYWNE */
@@ -442,6 +423,7 @@ a {
 
 .icons-header {
   margin-right: 10px;
+  fill: #757575;
 }
 
 .icons-menu {
@@ -449,15 +431,28 @@ a {
   margin-bottom: 30px;
 }
 
+.icons-social-media {
+  margin-inline: 5px;
+}
+
+.container-social-media {
+  display: inline-flex;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.icons-customers {
+  border: solid gray;
+  border-radius: 4px;
+}
+
 .reaction1:hover {
   fill: #2196f3;
   cursor: pointer;
 }
 
-.reaction2:hover {
-  fill: #2196f3;
- 
+.reaction3:hover {
+  --color1: #2196f3;
+  --color2: #ffffff;
+  cursor: pointer;
 }
-
-
-

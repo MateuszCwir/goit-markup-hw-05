@@ -83,7 +83,13 @@ footer {
   padding-bottom: 94px;
 }
 
-.container {
+.section-our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+#F5F4FA .container {
   max-width: 1600px;
 }
 
@@ -145,13 +151,7 @@ footer {
   display: flex;
   padding-bottom: 50px;
   justify-content: center;
-}
-
-.menu-page2 > .item:not(:last-child) {
-  margin-right: 8px;
-}
-.menu-page2 > .item:not(:first-child) {
-  margin-left: 8px;
+  margin-inline: 8px;
 }
 
 .card-set-page1-1 {
@@ -196,6 +196,7 @@ footer {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 .card-set-page2 {
@@ -203,8 +204,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-left: 185px;
-  margin-right: 185px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .card-page2 {
   flex-basis: calc((100% - 60px) / 3);
@@ -258,8 +259,6 @@ a {
   cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
-  height: 38px;
-  width: 125px;
   border-radius: 4px;
   text-decoration: none;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -442,22 +441,29 @@ a {
   margin-right: 27px;
 }
 
-.reaction1:hover {
+.reaction1:hover,
+.reaction1:focus,
+.reaction1:active {
   fill: #2196f3;
   cursor: pointer;
 }
 
-.reaction2:hover {
+.reaction2:hover,
+.reaction2:focus,
+.reaction2:active {
   cursor: pointer;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.reaction3:hover {
+.reaction3:hover,
+.reaction3:focus,
+.reaction3:active {
   --color1: #2196f3;
   --color2: #ffffff;
   cursor: pointer;
 }
+
 
 .box-footer2 {
   display: block;
@@ -478,3 +484,22 @@ a {
   padding-bottom: 20px;
   padding-left: 32px;
 }
+
+.display-inline {
+  display: flex;
+  justify-content: center;
+  border: solid;
+}
+
+.border {
+  border: solid #afb1b8;
+}
+
+
+.reaction3:hover,
+.reaction3:focus,
+.reaction3:active {
+fill: #2196f3;
+  cursor: pointer;
+}
+

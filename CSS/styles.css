@@ -487,19 +487,22 @@ a {
   padding-left: 32px;
 }
 
-.display-inline {
+.container-customers {
   display: flex;
   justify-content: center;
-  border: solid;
+
 }
 
 .border {
-  border: solid #afb1b8;
+  border: solid 1px var(--color1,#afb1b8);
+  border-radius: 4px;
+  margin-inline: 30px;
+  
 }
 
-.reaction3:hover,
-.reaction3:focus,
-.reaction3:active {
-  fill: #2196f3;
+.shared:hover {
+  --color1: #2196f3;
+  --color2: #ffffff;
   cursor: pointer;
 }
+

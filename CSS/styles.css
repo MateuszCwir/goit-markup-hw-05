@@ -125,44 +125,6 @@ footer {
     url("../images/background.png");
 }
 
-.container-maintitle-page12 {
-  width: 1600px;
-  height: 636px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/background.jpg");
-}
-
-.container-maintitle-page13 {
-  width: 1600px;
-  height: 636px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("./images/background.png");
-}
-
-.container-maintitle-page14 {
-  width: 1600px;
-  height: 636px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("./images/background.jpg");
-}
 
 .container-button {
   width: 200px;

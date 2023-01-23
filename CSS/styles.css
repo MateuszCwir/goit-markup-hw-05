@@ -290,6 +290,7 @@ footer {
   box-shadow: none;
   position: relative;
   justify-items: center;
+  background-color: #757575;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
